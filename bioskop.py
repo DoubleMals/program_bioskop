@@ -69,7 +69,7 @@ def main():
     #MENAMPILKAN JUMLAH TOTAL BAYAR
     print("Total Bayar			: Rp.", total)
     bayar = int(input("Masukkan Uang Bayar		: Rp. "))
-    #JIKA UANG PEMBAYARAN LEBIH KECIL DARI TOTAL BAYAR, MAKA PROGRAM BERHENTI
+    #JIKA UANG PEMBAYARAN LEBIH KECIL DARI TOTAL BAYAR, MAKA PROGRAM BERHENTII
     if bayar < total:
         print("============= Uang tidak mencukupi ==============")
     #JIKA UANG PEMBAYARAN LEBIH BESAR DARI TOTAL BAYAR, MAKA PROGRAM AKAN MENGEMBALIKAN HASIL KEMBALIAN
